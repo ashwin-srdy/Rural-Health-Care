@@ -4,6 +4,8 @@
 }
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger!important;
+    
 }
 
 .container-fluid{
@@ -112,8 +114,7 @@ p,h3{
 
 .field{
     width: 300px;
-    margin-left: 190px;
-    margin-top: 50px;
+    margin-left: 190px!important;
 }
 .doctor-state{
     font-size: 20px;
@@ -132,22 +133,36 @@ label{
 .form-d,.form-n,.form-p{
     margin-left: 20px;
 }
-.phc-d{
+/* .phc-d{
     
-}
-.nurse{
-    position: absolute;
-    left: 30%;
-    bottom: 0%;
-    margin-top: 50px;
-}
-.pharmacist{
-    position: absolute;
-    left: 60%;
-    bottom: 15%;
-}
+} */
+
 .nurse-head{
     margin-left: 500px;
     margin-top:50px;
     font-family: Rubik;
+}
+.attributes{
+    display: flex;
+    flex: 0.7;
+    flex-wrap: wrap;
+    flex-basis:300px ;
+}
+
+
+.doctor{
+    width: fit-content;
+}
+
+.nurse{
+    width: fit-content;
+}
+
+.pharmacist{
+    width: fit-content;
+    /* margin-left: 300px; */
+}
+
+label{
+    margin-top: 10px;
 }
