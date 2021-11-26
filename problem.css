@@ -65,7 +65,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     position: absolute;
-    top: 80%;
+    top: 110%;
     left: 43%;
     cursor: pointer;
     transition: transform .5s;
@@ -100,7 +100,7 @@ p,h3{
     /* margin-left: 100px;
     margin-right: 100px; */
     position: absolute;
-    bottom: 0px;
+    bottom: 150px;
     color: white;
     animation-duration: 5s;
 }
