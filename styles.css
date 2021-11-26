@@ -88,14 +88,8 @@ body{
     text-align: left;
     line-height: 2;
 }
-.katana{
-    float: left;
-    margin-right: 20px;
-}
-.sake{
-    float: right;
-    margin-left: 20px;
-}
+
 p,h3{
     color: white;
 }
+
